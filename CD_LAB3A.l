@@ -2,8 +2,8 @@
 %}
 
 %%
-[aeiouAEIOU] printf("\tIs a consonant\t");
-[a-zA-Z] printf("\tIs a vowel\t");
+[aeiouAEIOU] printf("\tIs a vowel\t");
+[a-zA-Z] printf("\tIs a consonant\t");
 %%
 
 int yywrap(void){}
